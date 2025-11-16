@@ -1,27 +1,13 @@
-# ──────────────────────────────────────────────────────────────
-#  CBQRA Pro v3.1 – Streamlit Cloud Optimized requirements.txt
-#  Pins for PyMC + NumPy compatibility | Tested: Local + Cloud
-# ──────────────────────────────────────────────────────────────
-
-# Core UI & Data (Cloud-stable versions)
-streamlit==1.38.0           # Exact for download bug fix
-pandas==2.2.3               # Arrow backend, no 2.0 NumPy breaks
-numpy==1.26.4               # PyMC-compatible (avoids 2.0+ JAX issues)
-matplotlib==3.9.2           # PNG handling without Tkinter crashes
-scipy==1.13.1               # Stats core
-
-# Bayesian Engine (MCMC/BQR MUST-HAVES)
-pymc==5.16.1                # Exact for MultiCryptoBQRAnalysis
-arviz==0.19.0               # MCMC viz/diagnostics
-jax==0.4.30                 # PyMC backend (Cloud wheels available)
-jaxlib==0.4.30              # JAX CPU (no GPU needed)
-
-# Viz & Helpers
+streamlit==1.38.0
+pandas==2.2.3
+numpy==1.26.4
+matplotlib==3.9.2
+scipy==1.13.1
+pymc==5.16.1
+arviz==0.19.0
+jax==0.4.30
+jaxlib==0.4.30
 seaborn==0.13.2
-pyarrow==17.0.0             # Fast CSVs for low-RAM
-
-# Fuzzy Search
+pyarrow==17.0.0
 thefuzz==0.22.1
-python-levenshtein==0.25.1  # Speeds up, has Cloud wheels
-
-# No extras — keeps build <2min on Cloud free tier
+python-levenshtein==0.25.1
