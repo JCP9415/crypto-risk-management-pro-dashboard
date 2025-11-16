@@ -1,0 +1,14 @@
+# 1. Clone & enter repo
+git clone https://github.com/JCP9415/crypto-risk-management-pro-dashboard.git
+cd crypto-risk-management-pro-dashboard
+
+# 2. Create a clean venv
+python -m venv .venv
+# Windows
+.\.venv\Scripts\activate
+# macOS / Linux
+source .venv/bin/activate
+
+# 3. Install
+pip install --upgrade pip
+pip install -r requirements.txt
