@@ -1,5 +1,25 @@
 # **BQR Quant Analysis Suite**
 
+# Crypto Risk Manager Pro — CBQRA v3.1
+
+**Bayesian Quantile Regression for Crypto Risk — Runs on a $70 Laptop**
+
+![CBQRA Analysis Complete](assets/demo/analysis_complete.png)
+
+![MCMC Sampling in Progress](assets/demo/mcmc_progress.png)
+
+![Full Visualization Suite](assets/demo/visualizations.png)
+
+> **5 months. Zero to quant. No cloud. No GPU. Just Python + grit.**
+> *Tested on: Windows · macOS · Linux · 2 GB RAM · Philippines internet*
+
+---
+
+## Live Demo (No Install Needed)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_LINK_HERE)
+
+*(Link will appear after you deploy — see below)*
+
 ### **Institutional‑Grade Quant Power — On a 10‑Year‑Old Lenovo 110S**
 
 Welcome to **BQR (Bank‑Quality Risk)** — a fully featured quant analytics engine delivering hedge‑fund‑class Monte Carlo simulations, risk modeling, stress‑testing, and portfolio diagnostics… all runnable on a **$70 second‑hand laptop**.
