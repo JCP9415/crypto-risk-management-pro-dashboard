@@ -1,13 +1,11 @@
 # 🧠 Crypto Risk Manager Pro
 Industrial-Strength Quant for the Home Hobbyist
-## Live Demo (Localhost)
 ![CBQRA in Action](assets/demo/analysis_complete.png)
-## Live Demo (Localhost)
 ![CBQRA in Action](assets/mcmc_progress.png)
-## Live Demo (Localhost)
 ![CBQRA in Action](assets/demo/visualizations.png)
 ---
-
+## Watch Demo.mp4 (main directory) to see this app's features and functionality.
+  
 ## 🚀 Mission Statement
 
 This dashboard democratizes crypto quant analysis. It’s built for:
