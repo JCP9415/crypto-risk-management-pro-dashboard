@@ -1,6 +1,6 @@
 # 🧠 Crypto Risk Manager Pro
 Industrial-Strength Quant for the Home
-
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cbqra-pro.streamlit.app/)
 ![CBQRA in Action](assets/demo/analysis_complete.png)
 ![CBQRA in Action](assets/mcmc_progress.png)
 ![CBQRA in Action](assets/demo/visualizations.png)
