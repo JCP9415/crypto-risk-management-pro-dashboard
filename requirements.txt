@@ -10,5 +10,4 @@ pymc==5.16.1
 seaborn==0.13.2
 pyarrow==17.0.0
 thefuzz==0.22.1
-Levenshtein==0.25.1Do I need jax and jaxlib?
-
+Python-Levenshtein==0.25.1
