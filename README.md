@@ -4,7 +4,7 @@ Industrial-Strength Quant for the Home Hobbyist
 ![CBQRA in Action](assets/mcmc_progress.png)
 ![CBQRA in Action](assets/demo/visualizations.png)
 ---
-## Watch Demo.mp4 (main directory) to see this app's features and functionality.
+## Download the short video "Demo.mp4" (main directory) to view the powerful functionality, vivid visualizations, logical workflow, user-friendly UI and overall superlative UX.
   
 ## 🚀 Mission Statement
 
