@@ -1,11 +1,11 @@
 # 🧠 Crypto Risk Manager Pro
 Industrial-Strength Quant for the Home Hobbyist
-
-![Runs on a Toaster](https://img.shields.io/badge/Runs%20on-a%20Toaster-ff69b4)
-![Retail Hedge Fund](https://img.shields.io/badge/Retail-Hedge%20Fund-blue)
-![Bank III Prudence+ Certified](https://img.shields.io/badge/Bank%20III-Prudence%2B-green)
-![Happy, Happy, Joy, Joy Approved](https://img.shields.io/badge/Happy%20Joy%20Joy-Approved-yellow)
-
+## Live Demo (Localhost)
+![CBQRA in Action](assets/demo/analysis_complete.png)
+## Live Demo (Localhost)
+![CBQRA in Action](assets/mcmc_progress.png)
+## Live Demo (Localhost)
+![CBQRA in Action](assets/demo/visualizations.png)
 ---
 
 ## 🚀 Mission Statement
