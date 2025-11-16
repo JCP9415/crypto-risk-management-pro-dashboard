@@ -16,8 +16,7 @@
 ---
 
 ## Live Demo (No Install Needed)
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_LINK_HERE)
-
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cbqra-pro-jcp9415.streamlit.app/
 *(Link will appear after you deploy — see below)*
 
 ### **Institutional‑Grade Quant Power — On a 10‑Year‑Old Lenovo 110S**
