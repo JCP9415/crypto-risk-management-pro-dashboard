@@ -11,3 +11,6 @@ seaborn==0.13.2
 pyarrow==17.0.0
 thefuzz==0.22.1
 python-levenshtein==0.25.1
+rich==14.2.0
+pygments==2.19.1
+mdurl==0.1.2
