@@ -1,153 +1,100 @@
-# **BQR Quant Analysis Suite**
+# 🧠 Crypto Risk Manager Pro
+Industrial-Strength Quant for the Home Hobbyist
 
-# Crypto Risk Manager Pro — CBQRA v3.1
-
-**Bayesian Quantile Regression for Crypto Risk — Runs on a $70 Laptop**
-
-![CBQRA Analysis Complete](assets/demo/analysis_complete.png)
-
-![MCMC Sampling in Progress](assets/demo/mcmc_progress.png)
-
-![Full Visualization Suite](assets/demo/visualizations.png)
-
-> **5 months. Zero to quant. No cloud. No GPU. Just Python + grit.**
-> *Tested on: Windows · macOS · Linux · 2 GB RAM · Philippines internet*
+![Runs on a Toaster](https://img.shields.io/badge/Runs%20on-a%20Toaster-ff69b4)
+![Retail Hedge Fund](https://img.shields.io/badge/Retail-Hedge%20Fund-blue)
+![Bank III Prudence+ Certified](https://img.shields.io/badge/Bank%20III-Prudence%2B-green)
+![Happy, Happy, Joy, Joy Approved](https://img.shields.io/badge/Happy%20Joy%20Joy-Approved-yellow)
 
 ---
 
-## Live Demo (No Install Needed)
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cbqra-pro-jcp9415.streamlit.app/
-*(Link will appear after you deploy — see below)*
+## 🚀 Mission Statement
 
-### **Institutional‑Grade Quant Power — On a 10‑Year‑Old Lenovo 110S**
+This dashboard democratizes crypto quant analysis. It’s built for:
 
-Welcome to **BQR (Bank‑Quality Risk)** — a fully featured quant analytics engine delivering hedge‑fund‑class Monte Carlo simulations, risk modeling, stress‑testing, and portfolio diagnostics… all runnable on a **$70 second‑hand laptop**.
-
-This project was designed, refined, broken, rebuilt nine times, and battle‑tested on an ultra‑low‑power machine:
-
-* **2016 Lenovo 110S (BR11)**
-* Dual‑core Atom processor
-* **2 GB DDR3 RAM**
-* **32 GB eMMC storage**
-
-If it runs here, it runs *anywhere*. This is quant analysis for **everyone**, not just for billion‑dollar funds.
+- **Retail traders**, hobbyist quants, and educators
+- **Beginner empowerment** through annotated visuals and glossary tooltips
+- **Advanced users** who want to tweak backend parameters (but beware:
+  _“Moving away from Prudent Person standards. You have been duly warned.”_)
 
 ---
 
-## ⚙️ **Design Philosophy**
+## 🏦 Beyond the 70/30 — Enter Bank III Prudence+
 
-### **1. Industrial‑Strength Quant Analysis for Retail Users**
+Standard portfolio theory often defaults to a **70/30 equity/bond split**, assuming Gaussian returns and stable regimes. Crypto laughs at that.
 
-BQR brings traditionally exclusive tools — Monte Carlo engines, fat‑tail stress models, forward‑drift pessimistic projections, multi‑asset correlation matrices, and dynamic risk reporting — straight to retail quants, hobbyists, and researchers.
+**Crypto Risk Manager Pro** embraces:
+- **Pessimistic forward drift** modeling
+- **Speculative asset caps**
+- **Flash crash detection**
+- **Kelly Criterion scaling**
+- **Volatility-adjusted allocations**
+- **Correlation-aware rebalancing**
 
-### **2. Bank III Prudence+**
-
-Most tools aim for the classic **70/30 portfolio “prudent person” standard**.
-BQR goes farther.
-
-* **100% forward‑looking pessimistic drift** (no rosy assumptions)
-* **100% historical risk** (volatility, covariance, drawdowns)
-* Built‑in safeguards preventing *optimism bias*
-
-This creates a **prudence buffer** resembling Bank III risk modeling practices — but tuned for modern, hyper‑volatile markets.
-
-### **3. Built for Tiny Machines**
-
-Every algorithm is optimized for small memory footprints and low CPU overhead.
-
-The result: a full quant suite that runs smoothly on hardware weaker than a smartphone.
+This isn’t just prudent—it’s **Bank III Prudence+**.
 
 ---
 
-## 📊 **Standard Monte Carlo vs. BQR Monte Carlo**
+## 📊 Standard vs BQR: Why Bayesian Quantile Regression Wins in Crypto
 
-| Feature              | Standard Monte Carlo | **BQR Monte Carlo (Bank‑Quality)**           |
-| -------------------- | -------------------- | -------------------------------------------- |
-| Drift                | Historical avg       | **Forward‑looking pessimistic drift**        |
-| Volatility           | Historical           | **Historical (full), no smoothing**          |
-| Correlations         | Optional             | **Mandatory full‑matrix correlations**       |
-| Tail Risk            | Often ignored        | **Fat‑tail, stress scenario overlays**       |
-| Robustness           | Consumer‑grade       | **Institutional‑grade**                      |
-| Crypto Applicability | Poor                 | **Excellent — tuned for extreme volatility** |
-
-### **Why BQR is Better for Cryptos**
-
-* Crypto returns are **not normally distributed** → BQR handles fat tails.
-* Crypto volatility shifts rapidly → BQR uses pessimistic drift.
-* Cross‑asset correlation spikes during crashes → BQR models full covariance.
-* Most retail tools treat crypto like equities → **BQR treats crypto like crypto**.
+| Feature                     | Standard Regression | Bayesian Quantile Regression (BQR) |
+|-----------------------------|---------------------|-------------------------------------|
+| Assumes normality           | ✅ Yes              | ❌ No                               |
+| Sensitive to outliers       | ✅ Yes              | ❌ No                               |
+| Captures tail risk          | ❌ No               | ✅ Yes                              |
+| Forecasts full distribution | ❌ No               | ✅ Yes                              |
+| Adapts to regime shifts     | ❌ No               | ✅ Yes                              |
+| Crypto-ready                | ❌ Not really       | ✅ Absolutely                       |
 
 ---
 
-## 🛡️ **Prudence Guardrails**
+## 🛠️ System Requirements
 
-BQR defaults are designed to protect non‑experts:
-
-* Conservative forward drift
-* No unrealistic growth assumptions
-* Worst‑case scenario overlays enabled
-* No unsupervised leverage multipliers
-
-These keep the system compliant with the spirit of **Prudent Person** portfolio standards.
-
-### **Advanced Mode (Warning!)**
-
-If you choose to tweak backend parameters, you will encounter:
-
-> **"You are now moving away from Prudent Person standards. You have been duly warned."**
-
-This is intentional — advanced users can access extreme configurations, but only after acknowledging the risks.
+- **OS:** Any (Windows, Linux, Mac)
+- **RAM:** 2GB (yes, really)
+- **CPU:** Dual-core Atom or better
+- **Storage:** 32GB eMMC or SSD
+- **Browser:** Chrome, Firefox, Edge
+- **Python:** 3.8+
 
 ---
 
-## 🚀 **Features**
+## 🧪 Advanced Mode (Use With Caution)
 
-* Multi‑asset data ingestion
-* Correlation‑aware Monte Carlo simulations
-* Forward pessimistic drift modeling
-* Stress testing & scenario generation
-* Backtesting engine
-* Full‑screen visualizations + exportable charts
-* Downloadable reports
-* Works on ultra‑low‑spec machines
+Want to tweak:
+- MCMC sample size?
+- Quantile targets?
+- Risk thresholds?
 
----
+Go ahead. But remember:
 
-## 🧪 **Who is BQR For?**
-
-* Retail traders
-* Home quants
-* Students
-* Researchers
-* Crypto portfolio analysts
-* Anyone who wants institutional analytics without institutional hardware
+> _“Moving away from Prudent Person standards. You have been duly warned.”_
 
 ---
 
-## 🔧 **Advanced Configuration (Optional)**
+## 🎉 Features
 
-Experienced users may modify:
-
-* Drift assumptions
-* Covariance blending
-* Stress scenario multipliers
-* Distribution models
-* Simulation granularity
-
-But again — **advanced mode disables prudence protections**.
+- 📈 CBQRA with full-screen visuals
+- 🧮 Monte Carlo simulations
+- 🧠 Smart glossary with fuzzy search
+- 🛡️ Risk violation detection
+- 🔄 Portfolio backtesting
+- 🧼 Nuclear flush for clean resets
+- 📂 Upload your own CSVs or use defaults
 
 ---
 
-## 🏁 **Summary**
+## 🐰 Cultural Notes
 
-BQR democratizes quant finance.
-You get:
+This dashboard is powered by:
+- 🐇 Bugs Bunny logic (fast, clever, irreverent)
+- 🎩 Chaplin charm (silent but expressive)
+- 🎸 Kansas-style optimism (carry on, wayward quant)
 
-* Portfolio analytics normally reserved for hedge funds
-* Bank‑grade prudence defaults
-* Fully transparent parameters
-* A lightweight, efficient engine that runs even on decade‑old hardware
+---
 
-All without sacrificing performance or rigor.
+## 🧑‍💻 Getting Started
 
-Welcome to **Quant Power for Everyone**.
+```bash
+pip3 install -r requirements.txt
+streamlit run crm_cbqr.py
