@@ -1,10 +1,10 @@
 # 🧠 Crypto Risk Manager Pro
-Industrial-Strength Quant for the Home Hobbyist
+Industrial-Strength Quant for the Home
+
 ![CBQRA in Action](assets/demo/analysis_complete.png)
 ![CBQRA in Action](assets/mcmc_progress.png)
 ![CBQRA in Action](assets/demo/visualizations.png)
 ---
-## Download the short video "Demo.mp4" (main directory) to view the powerful functionality, vivid visualizations, logical workflow, user-friendly UI and overall superlative UX.
   
 ## 🚀 Mission Statement
 
