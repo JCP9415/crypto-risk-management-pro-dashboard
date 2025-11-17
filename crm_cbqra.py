@@ -1232,6 +1232,7 @@ with tab2:
             - **Terminal/Console** where you ran `streamlit run complete8.py`
             - **VS Code**: View → Terminal
             - **PyCharm**: Run/Debug console at bottom
+            - **Streamlit.app**: click '<Manage app' at bottom, right
 
             **Expected output:**
             ```
