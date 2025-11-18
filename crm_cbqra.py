@@ -338,6 +338,17 @@ def run_cbqra_analysis(config, risk_profile):
 
     output_dir = config['output_dir']
     PPath(output_dir).mkdir(parents=True, exist_ok=True)
+    # 🔥 ADD THIS BLOCK HERE 🔥
+    # Clean old pairwise comparisons to prevent ghost data
+    try:
+        old_pairwise = [f for f in os.listdir(output_dir) if f.startswith('pairwise_') and f.endswith('.png')]
+        if old_pairwise:
+            st.info(f"🗑️ Cleaning {len(old_pairwise)} old pairwise comparison(s)...")
+            for f in old_pairwise:
+                os.remove(os.path.join(output_dir, f))
+    except Exception as e:
+        st.warning(f"⚠️ Couldn't clean old pairwise files: {e}")
+    # 🔥 END OF FIX 🔥
 
     csv_files = [item['file'] for item in config['crypto_data']]
     crypto_names = [item['name'] for item in config['crypto_data']]
