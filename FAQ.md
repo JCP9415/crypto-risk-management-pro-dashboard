@@ -6,7 +6,7 @@
 # ❓ FAQ — Crypto Risk Manager Pro
 
 ### 🤔 Is this safe to use?
-Yes. It’s **educational software** — you make your own investment decisions.
+Yes. It’s **educational software** — you make your own investment decisions. We help you DYOR.
 
 ---
 
