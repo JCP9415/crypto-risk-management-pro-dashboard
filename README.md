@@ -98,4 +98,4 @@ This dashboard is powered by:
 
 ```bash
 pip3 install -r requirements.txt
-streamlit run crm_cbqr.py
+streamlit run crm_cbqra.py
