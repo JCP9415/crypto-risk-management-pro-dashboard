@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 large_data/
+# Ignore generated analysis results
+crypto_analysis_results/
+assets/demo/
