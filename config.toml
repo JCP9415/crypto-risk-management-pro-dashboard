@@ -1,0 +1,5 @@
+[server]
+headless = true
+runOnSave = false
+enableCORS = false
+port = 7860

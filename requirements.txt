@@ -1,33 +1,15 @@
-# ──────────────────────────────────────────────────────────────
-#  Crypto Risk Manager Pro – requirements.txt (v3.1‑stable)
-#  Tested on: Windows 11, macOS 15 (Intel & M2), Ubuntu 24.04, Python 3.11‑3.12
-# ──────────────────────────────────────────────────────────────
-
-# Core UI & data
-streamlit>=1.38.0          # 1.28 works but 1.38+ fixes image‑download bugs
-pandas>=2.2.0              # 1.5 is ancient; 2.2+ gives Arrow backend & speed
-numpy>=1.26.0              # 1.21 is EOL; 1.26+ has universal wheels for ARM
-matplotlib>=3.9.0          # 3.5 is fine but 3.9+ adds better PNG handling
-
-# Bayesian engine
-pymc>=5.16.0               # Required for MultiCryptoBQRAnalysis
-arviz>=0.19.0              # Visual diagnostics for MCMC
-
-# Stats / viz helpers
-scipy>=1.13.0
-seaborn>=0.13.2
-pyarrow>=15.0.0            # Fast CSV/Parquet I/O (used by pandas)
-
-# Fuzzy search (optional but used in glossary)
-thefuzz>=0.22.1
-python-levenshtein>=0.25.1   # compiled wheel; dramatically speeds up thefuzz
-
-# Optional but highly recommended for low‑spec machines
-# (reduces memory pressure when reading large CSVs)
-pandas[performance]        # pulls in pyarrow automatically
-
-# ──────────────────────────────────────────────────────────────
-#  NOTE: All versions above have **universal wheels** on PyPI
-#  (win_amd64, manylinux, macosx_x86_64, macosx_arm64).
-#  No conda‑only packages → pure pip works everywhere.
-# ──────────────────────────────────────────────────────────────
+streamlit>=1.31.0
+pymc>=5.13.1
+numpy
+pandas
+matplotlib
+scipy
+arviz
+statsmodels
+seaborn
+tqdm
+pytz
+python-dateutil
+plotly
+numba
+thefuzz
