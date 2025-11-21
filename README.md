@@ -9,11 +9,11 @@ Industrial-Strength Quant for the Home
 ---
   
   
-## 🚀 Mission Statement
+## 🚀 Mission Statement - Really!
 
 This dashboard democratizes crypto quant analysis. It’s built for:
 
-- **Retail traders**, hobbyist quants, and educators
+- **Retail traders**, hobbyist quants, and educators  
 - **Beginner empowerment** through annotated visuals and glossary tooltips
 - **Advanced users** who want to tweak backend parameters (but beware:
   _“Moving away from Prudent Person standards. You have been duly warned.”_)
