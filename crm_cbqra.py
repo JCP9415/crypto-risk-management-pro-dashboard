@@ -975,7 +975,7 @@ with tab1:
     if st.session_state['forecasts']:
         st.subheader("🔮 BQR Trend Forecasts")
         forecast_df = pd.DataFrame(st.session_state['forecasts']).T
-        st.dataframe(forecast_df.style.format("{:.2f}"), width='stretcch')
+        st.dataframe(forecast_df.style.format("{:.2f}"), width='stretch')
     else:
         st.info("📈 Run CBQRA analysis to get Bayesian trend forecasts")
 
