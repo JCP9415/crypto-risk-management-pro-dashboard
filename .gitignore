@@ -4,3 +4,12 @@ large_data/
 # Ignore generated analysis results
 crypto_analysis_results/
 assets/demo/
+# Time Machine freeze files (added for v3.5x/v4.1)
+crypto_brain_freeze.pkl
+
+# Temporary upload directories
+temp_*/
+
+# Optional: Jupyter notebooks (uncomment if needed)
+# .ipynb_checkpoints/
+# *.ipynb
