@@ -96,6 +96,25 @@ This dashboard is powered by:
 
 ## 🧑‍💻 Getting Started
 
-```bash
+--- bash
 pip3 install -r requirements.txt
 streamlit run crm_cbqra.py
+---
+## 🎯 Project Status
+---
+This tool is **fully functional** and **actively maintained** as a personal project.
+
+**I am NOT:**
+- Looking for VC funding
+- Building a startup
+- Seeking co-founders
+- Available for full-time employment
+
+**I AM open to:**
+- Consulting engagements (limited availability)
+- Licensing discussions for institutional use
+- Speaking at conferences (if interesting)
+- Collaboration with other independent developers
+
+**Contact:** [Mecha0311@proton.me]
+---
