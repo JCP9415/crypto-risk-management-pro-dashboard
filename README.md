@@ -20,7 +20,7 @@ This dashboard democratizes crypto quant analysis. It’s built for:
 
 ---
 
-## 🏦 Beyond the 70/30 — Enter Bank III Prudence+
+## 🏦 Beyond the 70/30 — Enter Basel III Prudence+
 
 Standard portfolio theory often defaults to a **70/30 equity/bond split**, assuming Gaussian returns and stable regimes. Crypto laughs at that.
 
